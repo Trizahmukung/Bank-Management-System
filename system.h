@@ -64,6 +64,50 @@ int main(){
 
     cout << "\t Enter Choice (1-8): ";
     cin >> ch;
+	switch(ch){
+		case '1':
+			
+			break;
+		case '2':
+			system("cls");
+			cout<<"\t Enter the account number: ";
+			cin>>num;
+			 	 //deposit function
+			break; 	 
+		case '3':
+			system("cls");
+			cout<<"\t Enter the account number: ";
+			cin>>num;
+			 	 //dwithdraw function
+			break; 	 
+		case '4':
+			system("cls");
+			cout<<"\t Enter the account number: ";
+			cin>>num;
+			 	 //balance enquiry function
+			break; 
+		case '5':
+			//displayy all function
+			break; 
+		case '6':
+			system("cls");
+			cout<<"\t Enter the account number: ";
+			cin>>num;
+			 	 //close account function
+			break; 	
+		case '7':
+			system("cls");
+			cout<<"\t Enter the account number: ";
+			cin>>num;
+			 	 //modify account function
+			break; 	
+		case '8':
+			cout << "\t Thanks for using the Bank Management System." << endl;
+			break;	
+		default:
+            cout << "\t Invalid choice." << endl;	
+			 
+	}
     
 	Bank_Account A;
 	A.create_account();
